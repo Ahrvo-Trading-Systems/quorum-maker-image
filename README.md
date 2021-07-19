@@ -16,6 +16,6 @@ Quorum Maker uses Docker to make the setup easy. Most of the dependancies are ba
    3. Automatically clone Quorum and copy `geth` and `bootnode` to image.
    4. Download `Constellation` executable and copy to image.
    5. Install Linux libraries.
-1. Tag docker image usin `build_image.sh ahrvo-quorum-maker`
+1. Tag docker image usin `build_image.sh ahrvo-quorum-maker latest`
 
 Please refer to the source code and edit each libraries versions before you build. Make sure to update the image tag name in qm.variables of Quorum Maker to use this newly built image.  
